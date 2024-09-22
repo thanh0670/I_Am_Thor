@@ -1,8 +1,8 @@
 export const textArray = Object.freeze([
-    "dog",
-    "Hai",
+    "supper dog",
+    "Minh Hai",
     "Cat",
-    "Loi",
+    "Huu Loi",
     "Ox",
     "BullFrog"
 ]
