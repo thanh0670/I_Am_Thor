@@ -32,13 +32,18 @@ const runTyping = async () => {
             })
             for (let j = 0; j < nameText.length; j++) {
                 numberName = nameText[j];
-                console.log(numberName);
                 UISelector.searchText.innerHTML += numberName;
                 await new Promise((resolve) => {
-                    setTimeout(resolve, 200);
+                    setTimeout(resolve, 300);
                 })
             }
 
+            for (let k = 0; k < nameText.length; k++) {
+                await new Promise((resolve) => {
+                    setTimeout(resolve, 300);
+                })
+                UISelector.searchText.innerHTML = UISelector.searchText.innerHTML.slice(0, -1);
+            }
         }
     }
 
