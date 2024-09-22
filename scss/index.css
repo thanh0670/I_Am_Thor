@@ -12,6 +12,9 @@
   height: 50px;
   border: 1px solid #333;
   font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .wrapper .container {
   margin-left: 30px;

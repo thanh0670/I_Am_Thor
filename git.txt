@@ -1,2 +1,31 @@
-B1 : vo github
-B2 : tạo
+Lan dau tien:
+
+B1 > vo github
+B2 > tao repo
+B3 > vao folder du an cai git bang lenh git init
+B4 > remote den trang web github bang lenh git remote add origin url 
+B5 > them thu muc hoac file vao git bang lenh git add . hoac git add tung file vi du git add ./index.html
+B6 > kiem tra trang thai cua git bang lenh git status
+B7 > comment du an bang lenh git commit -m "string"
+B8 > tao nhanh bang lenh git branch -M main
+B9 > git push -u orgin main
+
+Lan thu 2 tro di:
+
+B1 > git add . / git add ./index.html
+B2 > git status
+B3 > git commit -m "string"
+B4 > git push
+
+
+
+script
+
+git init
+git remote add origin url 
+git add . / git add ./index.html
+git status
+git reset
+git commit -m "string"
+git branch -M main
+git push -u orgin main
